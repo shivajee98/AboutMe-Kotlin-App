@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="myName"
+            type="com.shivajee.aboutme.MyName" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:ignore="UseCompoundDrawables">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/StyleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={myName.name}"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/NickNameEdit"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/what_is_yout_nick_name"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/done"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#E0D0D0"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#BCA9A9"
+            android:text="@string/done"
+            android:textColor="#80D1D0"
+            android:textColorHighlight="#551818"
+            android:textColorHint="#DAB2B2"
+            android:textColorLink="#D5B1B1"
+            app:rippleColor="#CAABAB"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/NickNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@={myName.nickName}"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/bigStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/yellow_stay"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:ignore="ImageContrastCheck" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bio" />
+        </ScrollView>
+
+
+    </LinearLayout>
+</layout>

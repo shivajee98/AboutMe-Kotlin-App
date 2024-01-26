@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Shivajee</string>
+    <string name="image_id">avatar</string>
+    <string name="yellow_stay">Yellow Star</string>
+    <string name="bio">PROFESSIONAL SUMMARY
+Motivated student exploring the exciting field of DevOps \n
+coding. Enthusiastic about leveraging my foundational      \n
+knowledge in software \n development and my passion for         \n
+automation to contribute to \n dynamic teams.                     \n
+With a solid understanding of programming fundamentals           \n
+and a willingness to learn, I am eager to dive into the world      \n
+of DevOps. I am familiar with  \n cloud computing platforms              \n
+like AWS and Azure and have started exploring tools like               \n
+Jenkins, Docker, and Kubernetes.                                         \n
+While I may not have extensive \n industry experience, I am a                 \n
+quick learner and possess a strong problem-solving                           \n
+mindset. I am committed to continuously improving my                           \n
+skills and staying updated with the latest industry trends                       \n
+and best practices.                                                                \n
+I am seeking opportunities to \n work alongside experienced                             \n
+With a collaborative nature and  \n excellent communication                                \n
+professionals who can mentor and guide me on my journey.                                 \n
+skills, I am confident in my ability to contribute to team                                 \n
+projects and actively contribute to the success of any                                       \n
+organization.                                                                                  \n
+I am excited to embark on this career path and make a                                            \n
+positive impact in the field of DevOps coding.                                                     \n
+        Motivated student exploring the exciting field of DevOps \n
+coding. Enthusiastic about leveraging my foundational      \n
+knowledge in software \n development and my passion for         \n
+automation to contribute to \n dynamic teams.                     \n
+With a solid understanding of programming fundamentals           \n
+and a willingness to learn, I am eager to dive into the world      \n
+of DevOps. I am familiar with  \n cloud computing platforms              \n
+like AWS and Azure and have started exploring tools like               \n
+Jenkins, Docker, and Kubernetes.                                         \n
+While I may not have extensive \n industry experience, I am a                 \n
+quick learner and possess a strong problem-solving                           \n
+mindset. I am committed to continuously improving my                           \n
+skills and staying updated with the latest industry trends                       \n
+and best practices.                                                                \n
+I am seeking opportunities to \n work alongside experienced                             \n
+With a collaborative nature and  \n excellent communication                                \n
+professionals who can mentor and guide me on my journey.                                 \n
+skills, I am confident in my ability to contribute to team                                 \n
+projects and actively contribute to the success of any                                       \n
+organization.                                                                                  \n
+I am excited to embark on this career path and make a                                            \n
+positive impact in the field of DevOps coding.                                                     \n
+    </string>
+    <string name="what_is_yout_nick_name">What is your NickName</string>
+    <string name="done">Done</string>
+    <string name="nickName">Nick Name\n</string>
+</resources>
